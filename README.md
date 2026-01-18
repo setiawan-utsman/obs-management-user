@@ -31,17 +31,36 @@ This app demonstrates clean UI, interactive form validation, and reusable compon
 
 ```text
 src/
+├── app/
 ├── components/
-│   ├── UserCard.tsx
-│   ├── UserFormModal.tsx
-│   ├── UserDetailModal.tsx
-│   └── InfoItem.tsx
-├── types/
-│   └── user.ts
-├── pages/
-│   └── Users.tsx
+├── ui/                          # shadcn/ui components
+│   │   │   ├── alert.tsx
+│   │   │   ├── avatar.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── dialog.tsx
+│   │   │   ├── input.tsx
+│   │   │   └── label.tsx
+│   │   │
+│   │   ├── user/                        # User-related components
+│   │   │   ├── UserCard.tsx            # User card component
+│   │   │   ├── UserDetailModal.tsx     # User detail modal
+│   │   │   ├── UserFormModal.tsx       # Add/Edit form modal
+│   │   │   └── index.ts                # Export barrel
+│   │   │
+│   │   ├── common/                      # Shared components
+│   │   │   ├── Toast.tsx               # Toast notification
+│   │   │   ├── ConfirmDialog.tsx       # Confirmation dialog
+│   │   │   ├── LoadingSpinner.tsx      # Loading state
+│   │   │   ├── EmptyState.tsx          # Empty state
+│   │   │   └── index.ts    
+├── interface/
+│   └── global.interface.ts
+├── context/
+│   └── UsersContextProvider.tsx
 ├── index.css
-└── main.tsx
+└── App.tsx
 ```
 
 
@@ -75,8 +94,8 @@ export type UserFormData = {
 
 ## 📥 Installation
 ```ts
-git clone https://github.com/yourusername/obs-user-management.git
-cd obs-user-management
+git clone https://github.com/yourusername/obs-management-user.git
+cd obs-management-user
 ```
 
 
