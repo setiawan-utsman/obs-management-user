@@ -62,9 +62,6 @@ src/
 ├── index.css
 └── App.tsx
 ```
-
-
-
 ---
 
 ## 🧩 User Types
