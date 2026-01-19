@@ -1,8 +1,8 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@radix-ui/react-avatar";
-import { Mail, Phone, Globe, Building2 } from "lucide-react";
+import { Mail, Phone, Globe } from "lucide-react";
 import { User } from "../../interface/global.interface";
 import { Button } from "../Ui/Button";
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "../Ui/Dialog";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "../Ui/Dialog";
 
 const UserDetailModal: React.FC<{ 
   user: User | null; 
