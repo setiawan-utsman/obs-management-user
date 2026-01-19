@@ -3,7 +3,6 @@ import { Mail, Phone, Globe, Building2 } from "lucide-react";
 import { User } from "../../interface/global.interface";
 import { Button } from "../Ui/Button";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "../Ui/Dialog";
-import { Badge } from "../Ui/Badge";
 
 const UserDetailModal: React.FC<{ 
   user: User | null; 

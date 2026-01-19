@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { useUsers } from './app/context/UserContextProvider';
 import { ToastMessage, User, UserFormData } from './app/interface/global.interface';
 import { AlertCircle, Loader2, UserPlus, Users } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from './app/component/Ui/Alert';
-import { Badge } from './app/component/Ui/Badge';
 import { Button } from './app/component/Ui/Button';
 import { UserCard } from './app/component/User/UserCard';
 import { UserDetailModal } from './app/component/User/UserDetailModal';

@@ -3,7 +3,7 @@ import { Label } from "@radix-ui/react-label";
 import { useState, useEffect } from "react";
 import { UserFormData, User } from "../../interface/global.interface";
 import { Button } from "../Ui/Button";
-import { DialogHeader, DialogFooter, Dialog, DialogContent, DialogTitle, DialogDescription } from "../Ui/Dialog";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "../Ui/Dialog";
 import { Input } from "../Ui/Input";
 import { Globe, Mail, Phone, X } from "lucide-react";
 

@@ -1,7 +1,6 @@
-import { ArrowRight, ChevronRight, Edit, Mail, Phone, Trash2 } from "lucide-react";
+import { ArrowRight, Edit, Mail, Phone, Trash2 } from "lucide-react";
 import { User } from "../../interface/global.interface";
 import { Avatar, AvatarFallback, AvatarImage } from "../Ui/Avatar";
-import { Badge } from "../Ui/Badge";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../Ui/Card";
 import { Button } from "../Ui/Button";
 
