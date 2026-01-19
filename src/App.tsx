@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import { useUsers } from './app/context/UserContextProvider';
 import { ToastMessage, User, UserFormData } from './app/interface/global.interface';
-import { AlertCircle, Loader2, UserPlus, Users } from 'lucide-react';
+import { AlertCircle, Loader2, UserPlus } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from './app/component/Ui/Alert';
 import { Button } from './app/component/Ui/Button';
 import { UserCard } from './app/component/User/UserCard';
